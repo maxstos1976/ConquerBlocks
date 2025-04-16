@@ -107,3 +107,15 @@
     margin-bottom: 0.5rem;
   }
 }
+
+@media (max-width: 480px) {
+.logo-container img {
+  height: auto;
+}
+
+.logo-conquerx {
+  width: 130px;
+  border-radius: 30px;
+  padding: 5px;
+  
+}
