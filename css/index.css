@@ -98,7 +98,6 @@
   .news-card {
     align-items: left;
     justify-content: left;
-    border: 1px solid #07cf00;
     padding: 1rem;
     min-width: 300px;
   }
@@ -120,7 +119,6 @@
   .news-card {
     align-items: center;
     justify-content: center;
-    border: 1px solid #a02828;
     padding: 1rem;
     min-width: 300px;
   }
