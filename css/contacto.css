@@ -38,6 +38,13 @@
   color: var(--cor-texto);
 }
 
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* espaço entre o checkbox e o label */
+  margin-bottom: 5px;
+}
+
 .contacto-form .form-group {
   margin-bottom: 1em;
 }
