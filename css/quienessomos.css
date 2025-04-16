@@ -52,6 +52,10 @@
   transition: transform 0.3s ease;
 }
 
+.equipo-celda-nombre {
+  display: none;
+}
+
 .equipo-img:hover {
   transform: scale(1.1);
 }
@@ -77,6 +81,15 @@
   }
 
   tr {
-    margin-bottom: 1rem; /* Espaço entre "linhas" */
+    margin-bottom: 0.2rem; /* Espaço entre "linhas" */
+  }
+
+  .equipo-celda-nombre {
+    display: block;
+    background-color: var(--cor-principal);
+    color: var(--cor-blanco);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
   }
 }
