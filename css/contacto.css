@@ -1,0 +1,106 @@
+.contacto-main {
+  background-color: var(--cor-blanco);
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 2em auto;
+  padding: 2em;
+  box-shadow: var(--shadow-principal);
+}
+
+.contacto-form-section,
+.contacto-location-section {
+  margin-bottom: 2em;
+}
+
+.section-title {
+  font-size: 1.8em;
+  margin-bottom: 1em;
+  /* color: var(--cor-texto); */
+}
+
+.contacto-description,
+.contacto-contacto-info {
+  text-align: justify;
+  margin-bottom: 1.5em;
+  font-size: 1.2em;
+}
+
+.contacto-fieldset {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.contacto-legend {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: var(--cor-texto);
+}
+
+.contacto-form .form-group {
+  margin-bottom: 1em;
+}
+
+.contacto-form input[type="text"],
+.contacto-form input[type="tel"],
+.contacto-form input[type="email"],
+.contacto-form textarea {
+  width: 100%;
+  padding: 0.6em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 0.3em;
+}
+
+.input-hint {
+  font-size: 0.8em;
+  color: #777;
+}
+
+.contacto-form label {
+  margin-left: 0.5em;
+}
+
+.contacto-form textarea {
+  resize: vertical;
+}
+
+.contacto-button {
+  background-color: var(--cor-principal);
+  color: white;
+  border: none;
+  padding: 0.8em 1.5em;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+.contacto-button:hover {
+  background-color: #005fa3;
+}
+
+/* Mapa */
+.mapa-contacto {
+  width: 100%;
+  max-width: 100%;
+  height: 400px;
+  margin-top: 1em;
+  border-radius: 8px;
+}
+
+/* Email link */
+.contacto-email-link {
+  color: var(--cor-principal);
+  text-decoration: underline;
+}
+
+.contacto-email-link:hover {
+  color: #005fa3;
+}
+
+.contacto-contacto-info {
+  margin-top: 20px;
+  text-align: center;
+}

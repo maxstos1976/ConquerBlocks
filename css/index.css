@@ -1,0 +1,69 @@
+.main {
+  margin: auto;
+  max-width: 50%;
+  padding: 2rem;
+}
+
+.intro-section {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.main-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.intro-link a {
+  color: var(--cor-principal);
+  text-decoration: none;
+}
+
+.intro-link a:hover {
+  text-decoration: underline;
+}
+
+.intro-image img {
+  margin-top: 1rem;
+  max-width: 100%;
+}
+
+.courses-section,
+.news-section {
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.course-card,
+.news-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  background-color: var(--cor-blanco);
+  box-shadow: var(--shadow-principal);
+}
+
+.course-link,
+.news-link,
+.all-courses-link,
+.all-news-link {
+  color: var(--cor-principal);
+  text-decoration: none;
+}
+
+.course-link:hover,
+.news-link:hover,
+.all-courses-link:hover,
+.all-news-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,29 @@
+.news-section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.news-title {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.news-paragraph {
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.news-picture {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.news-source {
+  width: 100%;
+}
+
+.news-img {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}

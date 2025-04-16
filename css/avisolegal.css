@@ -1,0 +1,23 @@
+.legal-main {
+  padding: 2rem;
+  background-color: #fefefe;
+}
+
+.legal-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.legal-text {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.legal-list {
+  list-style-type: disc;
+  padding-left: 2rem;
+}
+
+.legal-list li {
+  margin-bottom: 0.75rem;
+}

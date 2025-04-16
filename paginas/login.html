@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+    <meta name="description" content="login" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" href="../img/favicon.ico" sizes="any" />
+    <meta name="theme-color" content="#fafafa" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <figure class="logo-container">
+        <a href="../index.html">
+          <img
+            class="logo-conquerx"
+            src="../img/logo_conquer.png"
+            alt="Logo CoquerBlocks"
+            width="200"
+            height="40"
+          />
+        </a>
+      </figure>
+      <!-- Botão hamburguer -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+      <nav class="nav">
+        <ul class="ul-menu">
+          <li class="menu-item"><a href="../index.html">Home</a></li>
+          <li class="menu-item">
+            <a href="./quienessomos.html">Quiénes somos</a>
+          </li>
+          <li class="menu-item"><a href="./cursos.html">Cursos</a></li>
+          <li class="menu-item"><a href="./blog.html">Blog</a></li>
+          <li class="menu-item"><a href="./registro.html">Registro</a></li>
+          <li class="menu-item"><a href="./login.html">Login</a></li>
+          <li class="menu-item"><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="login-main">
+      <div class="logado-message" id="logadoMessage">
+        <h2>Logado</h2>
+        <p id="emailDisplay"></p>
+        <p class="timedate-logado"></p>
+      </div>
+
+      <section class="form-section">
+        <fieldset class="login-fieldset">
+          <legend class="form-title">Login</legend>
+          <form
+            id="login-form"
+            action="#"
+            method="post"
+            name="login"
+            autocomplete="on"
+          >
+            <p class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input
+                class="form-input"
+                type="email"
+                name="email"
+                id="email"
+                maxlength="30"
+                required
+              />
+            </p>
+
+            <p class="form-group">
+              <label for="contrasena" class="form-label">Contraseña</label>
+              <input
+                class="form-input"
+                type="password"
+                name="contrasena"
+                id="contrasena"
+              />
+            </p>
+
+            <button class="form-button" type="submit">Enviar</button>
+          </form>
+        </fieldset>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer-text">
+        Conquer Blocks © 2023 Reservados todos los derechos
+        <a href="../paginas/avisolegal.html">Lea aviso legal. </a>
+      </p>
+    </footer>
+
+    <script src="../validador-login.js"></script>
+  </body>
+</html>

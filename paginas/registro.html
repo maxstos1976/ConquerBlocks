@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Registro</title>
+    <meta name="description" content="registro" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" href="../img/favicon.ico" sizes="any" />
+    <meta name="theme-color" content="#fafafa" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <figure class="logo-container">
+        <a href="../index.html">
+          <img
+            class="logo-conquerx"
+            src="../img/logo_conquer.png"
+            alt="Logo CoquerBlocks"
+            width="200"
+            height="40"
+          />
+        </a>
+      </figure>
+      <!-- Botão hamburguer -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+      <nav class="nav">
+        <ul class="ul-menu">
+          <li class="menu-item"><a href="../index.html">Home</a></li>
+          <li class="menu-item">
+            <a href="./quienessomos.html">Quiénes somos</a>
+          </li>
+          <li class="menu-item"><a href="./cursos.html">Cursos</a></li>
+          <li class="menu-item"><a href="./blog.html">Blog</a></li>
+          <li class="menu-item"><a href="./registro.html">Registro</a></li>
+          <li class="menu-item"><a href="./login.html">Login</a></li>
+          <li class="menu-item"><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      <section class="form-section">
+        <fieldset class="form-fieldset">
+          <legend class="form-legend">Registro</legend>
+          <form
+            action="#"
+            method="post"
+            name="registro"
+            autocomplete="on"
+            class="form"
+          >
+            <p class="form-group">
+              <label for="nombre" class="form-label">Nombre Completo</label>
+              <input
+                type="text"
+                name="nombre"
+                id="nombre"
+                maxlength="30"
+                required
+                class="form-input"
+              />
+            </p>
+
+            <p class="form-group">
+              <label for="nacimiento" class="form-label"
+                >Fecha Nacimiento</label
+              >
+              <input
+                type="date"
+                name="nacimiento"
+                id="nacimiento"
+                class="form-input"
+              />
+            </p>
+
+            <p class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                maxlength="35"
+                required
+                class="form-input"
+              />
+            </p>
+
+            <p class="form-group">
+              <label for="direccion" class="form-label">Dirección</label>
+              <input
+                type="text"
+                name="direccion"
+                id="direccion"
+                maxlength="50"
+                required
+                class="form-input"
+              />
+            </p>
+
+            <p class="form-group">
+              <label for="paginaweb" class="form-label">Página Web</label>
+              <input
+                type="url"
+                name="paginaweb"
+                id="paginaweb"
+                class="form-input"
+              />
+            </p>
+
+            <p class="form-group">
+              <label for="foto" class="form-label">Foto</label>
+              <input type="file" name="foto" id="foto" class="form-input" />
+            </p>
+
+            <p class="form-group">
+              <label for="biografia" class="form-label">Biografía</label>
+              <textarea
+                name="biografia"
+                id="biografia"
+                cols="30"
+                rows="10"
+                class="form-textarea"
+              ></textarea>
+            </p>
+
+            <div class="form-actions">
+              <button class="btn-submit">Enviar</button>
+              <input type="reset" value="Borrar Formulario" class="btn-reset" />
+            </div>
+          </form>
+        </fieldset>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer-text">
+        Conquer Blocks © 2023 Reservados todos los derechos
+        <a href="../paginas/avisolegal.html" class="footer-link"
+          >Lea aviso legal.</a
+        >
+      </p>
+    </footer>
+
+    <script src="../validador-registro.js"></script>
+  </body>
+</html>

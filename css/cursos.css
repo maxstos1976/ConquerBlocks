@@ -1,0 +1,111 @@
+/* MAIN */
+.cursos-main {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* INTRO SECTION */
+.intro-cursos {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.cursos-title {
+  font-size: 2.5rem;
+  /* color: var(--cor-texto); */
+  margin-bottom: 0.5rem;
+}
+
+.cursos-description {
+  font-size: 1.2rem;
+  /* color: var(--cor-texto); */
+}
+
+/* LISTA DE CURSOS */
+.lista-cursos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.lista-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  grid-column: 1 / -1;
+}
+
+/* CURSO CARD */
+.curso-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--cor-blanco);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow-principal);
+  transition: transform 0.3s;
+  text-align: center;
+}
+
+.curso-card:hover {
+  transform: translateY(-5px);
+}
+
+.curso-titulo {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  /* color: var(--cor-texto); */
+}
+
+.curso-link {
+  display: inline-block;
+  background-color: var(--cor-principal);
+  color: var(--cor-blanco);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+.curso-link:hover {
+  background-color: var(--cor-principal);
+}
+
+.curso-main {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  /* color: var(--cor-texto); */
+}
+
+.curso-section {
+  background-color: var(--cor-blanco);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow-principal);
+}
+
+.curso-texto {
+  /* color: var(--cor-texto); */
+  font-size: 1.2em;
+  margin-bottom: 2rem;
+}
+
+.curso-banner {
+  display: block;
+  text-align: center;
+}
+
+.curso-banner img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  box-shadow: var(--shadow-principal);
+}

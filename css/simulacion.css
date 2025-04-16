@@ -1,0 +1,16 @@
+.mensaje {
+  background-color: #d1eff5;
+  border: 1px solid rgb(0, 164, 170);
+  padding: 1rem;
+  border-radius: 5px;
+  width: 50%;
+  margin: auto;
+  box-shadow: var(--shadow-principal);
+}
+.datos {
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+.datos p {
+  margin: 0.3rem 0;
+}

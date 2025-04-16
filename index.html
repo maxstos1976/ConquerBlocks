@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Conquer Academy</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fafafa" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <!-- src="./img/logo_conquer.svg" -->
+  <body class="body">
+    <header class="header">
+      <figure class="logo-container">
+        <a href="index.html">
+          <img
+            class="logo-conquerx"
+            src="./img/logo_conquer.png"
+            alt="Logo CoquerBlocks"
+            width="200"
+            height="40"
+          />
+        </a>
+      </figure>
+      <!-- Botão hamburguer -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+      <nav class="nav">
+        <ul class="ul-menu">
+          <li class="menu-item"><a href="./index.html">Home</a></li>
+          <li class="menu-item">
+            <a href="./paginas/quienessomos.html">Quiénes somos</a>
+          </li>
+          <li class="menu-item"><a href="./paginas/cursos.html">Cursos</a></li>
+          <li class="menu-item"><a href="./paginas/blog.html">Blog</a></li>
+          <li class="menu-item">
+            <a href="./paginas/registro.html">Registro</a>
+          </li>
+          <li class="menu-item"><a href="./paginas/login.html">Login</a></li>
+          <li class="menu-item">
+            <a href="./paginas/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="intro-section">
+        <h1 class="main-title">La escuela online de la era moderna</h1>
+        <p class="intro-text">
+          Somos la primera escuela no-oficial que propone una alternativa
+          educativa real a la universidad y educación tradicional.
+        </p>
+        <p class="intro-link">
+          <a href="./paginas/quienessomos.html">Quiénes somos</a>
+        </p>
+        <picture class="intro-image">
+          <source
+            media="(width > 900px)"
+            srcset="./img/mestresacademybloks1200.png"
+          />
+          <source
+            media="(width > 600px) and (width < 900px)"
+            srcset="./img/mestresacademybloks900.png"
+          />
+          <source
+            media="(width < 600px)"
+            srcset="./img/mestresacademybloks400.png"
+          />
+          <img
+            src="./img/mestresacademybloks400.png"
+            alt="mestres"
+            width="400"
+          />
+        </picture>
+      </section>
+
+      <section class="courses-section">
+        <h2 class="section-title">Últimos dos cursos...</h2>
+        <article class="course-card">
+          <h3 class="course-title">Master en Full-Stack</h3>
+          <a class="course-link" href="./paginas/cursoFullStack.html"
+            >Ver curso.</a
+          >
+        </article>
+        <article class="course-card">
+          <h3 class="course-title">Master en Blockchain</h3>
+          <a class="course-link" href="./paginas/cursosBlockChain.html"
+            >Ver curso.</a
+          >
+        </article>
+        <a class="all-courses-link" href="./paginas/cursos.html"
+          >todos los cursos</a
+        >
+      </section>
+      <section class="news-section">
+        <h2 class="section-title">Últimas notícias del blog...</h2>
+        <article class="news-card">
+          <h3 class="news-title">
+            Microsoft tendrá presencia en la dirección de la empresa de ChatGPT
+          </h3>
+          <a class="news-link" href="./paginas/noticia1.html">Ver notícia.</a>
+        </article>
+        <article class="news-card">
+          <h3 class="news-title">
+            IBM y la NASA desarrollan una IA para predecir sequías y huracanes
+          </h3>
+          <a class="news-link" href="./paginas/noticia2.html">Ver notícia.</a>
+        </article>
+        <a class="all-news-link" href="./paginas/blog.html"
+          >notícias del blog</a
+        >
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer-text">
+        Conquer Blocks © 2023 Reservados todos los derechos
+        <a class="legal-link" href="./paginas/avisolegal.html"
+          >Lea aviso legal.</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

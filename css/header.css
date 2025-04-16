@@ -1,0 +1,108 @@
+.header {
+  background-color: var(--cor-texto);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-size: 1.2em;
+}
+
+.logo-container img {
+  height: auto;
+}
+
+.logo-conquerx {
+  display: flex;
+  flex-grow: 1;
+  background-color: var(--cor-blanco);
+  border-radius: 30px;
+  padding: 10px;
+  height: auto;
+}
+
+.ul-menu {
+  max-width: auto;
+  list-style: none;
+  display: flex;
+  background-color: var(--cor-blanco);
+  gap: 0.2rem;
+  margin: 0;
+  padding: 12px;
+  border-radius: 30px;
+}
+
+.ul-menu li a {
+  max-width: 100%;
+  text-decoration: none;
+  color: var(--cor-texto);
+  font-weight: bold;
+  padding: 5px 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ul-menu li a:hover {
+  color: var(--cor-principal);
+  border-radius: 20px;
+}
+
+.menu-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-item a:hover {
+  /* text-decoration: underline; */
+  text-shadow: var(--shadow-principal);
+}
+
+/* Esconde o checkbox */
+.menu-toggle {
+  display: none;
+}
+
+/* Estilo do botão hamburguer */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .ul-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: var(--cor-blanco);
+    border-radius: 15px;
+    padding: 1rem;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+    box-shadow: var(--shadow-principal);
+    z-index: 10;
+  }
+
+  .menu-toggle:checked + .hamburger + .nav .ul-menu {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .header {
+    flex-wrap: wrap;
+  }
+
+  .nav {
+    width: 100%;
+  }
+
+  .ul-menu li {
+    margin-bottom: 0.5rem;
+  }
+}

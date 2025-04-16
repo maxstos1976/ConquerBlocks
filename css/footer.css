@@ -1,0 +1,20 @@
+/* FOOTER */
+.footer {
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: var(--cor-texto);
+  color: var(--cor-blanco);
+  text-align: center;
+}
+
+.footer a {
+  color: var(--cor-principal);
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-text {
+  color: var(--cor-blanco);
+}

@@ -1,0 +1,92 @@
+/* Página de Login */
+.login-main {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+
+.form-section {
+  width: 100%;
+  max-width: 400px;
+  background-color: #f7f9fb;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: var(--shadow-principal);
+}
+
+.login-fieldset {
+  border: none;
+  padding: 0;
+}
+
+.form-title {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #2b2b2b;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+  color: var(--cor-texto);
+}
+
+.form-input {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: var(--cor-principal);
+  box-shadow: var(--shadow-principal);
+}
+
+.form-button {
+  padding: 0.7rem;
+  background-color: var(--cor-principal);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #005fa3;
+}
+
+.login-form,
+.logado-message {
+  max-width: 300px;
+  margin: 250px auto;
+  font-family: sans-serif;
+}
+
+.logado-message {
+  font-size: larger;
+  display: none;
+  text-align: center;
+  background-color: var(--cor-principal);
+  padding: 20px 50px;
+  box-shadow: var(--shadow-principal);
+  border-radius: 20px;
+}

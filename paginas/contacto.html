@@ -1,0 +1,94 @@
+<!doctype html>
+<html class="no-js" lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contacto</title>
+  <meta name="description" content="contacto">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="../img/favicon.ico" sizes="any">
+  <meta name="theme-color" content="#fafafa">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="body">
+  <header class="header">
+    <figure class="logo-container">
+      <a href="../index.html">
+        <img class="logo-conquerx" src="../img/logo_conquer.png" alt="Logo CoquerBlocks" width="200" height="40">
+      </a>
+    </figure>
+      <!-- Botão hamburguer -->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  <label for="menu-toggle" class="hamburger">&#9776;</label>
+    <nav class="nav">
+      <ul class="ul-menu">
+        <li class="menu-item"><a href="../index.html">Home</a></li>
+        <li class="menu-item"><a href="./quienessomos.html">Quiénes somos</a></li>
+        <li class="menu-item"><a href="./cursos.html">Cursos</a></li>
+        <li class="menu-item"><a href="./blog.html">Blog</a></li>
+        <li class="menu-item"><a href="./registro.html">Registro</a></li>
+        <li class="menu-item"><a href="./login.html">Login</a></li>
+        <li class="menu-item"><a href="./contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main contacto-main">
+    <section class="contacto-form-section">
+      <h1 class="section-title">Contacto</h1>
+      <p class="contacto-description">
+        Pregúntanos lo que quieras, estaremos encantados de responderte.
+        Pídenos una cita, o escribe lo más detalladamente posible cuáles son tus necesidades y tu situación actual, cuánta más información nos des mejor podremos encuentrar el mejor curso para ti.
+        Podemos concertar una llamada y hablar sobre lo que necesitas y en lo que podemos ayudarte.
+        Contacta con nosotros de la manera que te sientas más cómoda.
+      </p>
+
+      <fieldset class="contacto-fieldset">
+        <legend class="contacto-legend">Datos Personales</legend>
+        <form action="#" method="get" name="contacto" autocomplete="on" class="contacto-form">
+          <p class="form-group">Nombre: <input type="text" name="nombre" maxlength="30" required></p>
+          <p class="form-group">Teléfono: <input type="tel" name="telefono" > <span class="input-hint">format 123-123-123</span></p>
+          <p class="form-group">Email: <input type="email" name="email" maxlength="30" required></p>
+
+          <div class="form-group group-information">
+            <span>Sobre cuál curso deseas información:</span><br>
+            <input type="checkbox" name="fullstack" id="fullstack">
+            <label for="fullstack">Máster en Full-Stack</label><br>
+
+            <input type="checkbox" name="blockchain" id="blockchain">
+            <label for="blockchain">Máster en Desarrollo Blockchain</label><br>
+
+            <input type="checkbox" name="inteligenciaArtificial" id="inteligenciaArtificial">
+            <label for="inteligenciaArtificial">Máster en Inteligencia Artificial</label><br>
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje">Escribe tu mensaje:</label><br>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+          </div>
+
+          <button class="contacto-button">Enviar</button>
+        </form>
+      </fieldset>
+    </section>
+
+    <section class="contacto-location-section">
+      <h1 class="section-title">Dónde estamos:</h1>
+      <iframe class="mapa-contacto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48086.39684071095!2d1.1973838395701641!3d41.12579746128255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a3fcdbd3ddf159%3A0x920569a71387a3b2!2sTarragona!5e0!3m2!1spt-BR!2ses!4v1701341475983!5m2!1spt-BR!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <p class="contacto-contacto-info">
+        Llámanos, envíanos un <a class="contacto-email-link" href="mailto:maxstos@gmail.com">email</a>, escríbenos un WhatsApp, o usa el formulario de contacto.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+      Conquer Blocks © 2023 Reservados todos los derechos 
+      <a class="footer-link" href="../paginas/avisolegal.html">Lea aviso legal.</a>
+    </p>
+  </footer>
+  <script src="../validador-contacto.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Simulación de Envío</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <figure class="logo-container">
+        <a href="../index.html">
+          <img
+            class="logo-conquerx"
+            src="../img/logo_conquer.png"
+            alt="Logo CoquerBlocks"
+            width="200"
+            height="40"
+          />
+        </a>
+      </figure>
+      <!-- Botão hamburguer -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+      <nav class="nav">
+        <ul class="ul-menu">
+          <li class="menu-item"><a href="../index.html">Home</a></li>
+          <li class="menu-item">
+            <a href="./quienessomos.html">Quiénes somos</a>
+          </li>
+          <li class="menu-item"><a href="./cursos.html">Cursos</a></li>
+          <li class="menu-item"><a href="./blog.html">Blog</a></li>
+          <li class="menu-item"><a href="./registro.html">Registro</a></li>
+          <li class="menu-item"><a href="./login.html">Login</a></li>
+          <li class="menu-item"><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="mensaje">
+      <h2 class="form-title">Formulario enviado con éxito</h2>
+      <div class="datos" id="datos-enviados"></div>
+    </div>
+
+    <footer class="footer">
+      <p>
+        Conquer Blocks © 2023 Reservados todos los derechos
+        <a href="../paginas/avisolegal.html">Lea aviso legal.</a>
+      </p>
+    </footer>
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const datos = document.getElementById("datos-enviados");
+
+      if ([...params].length === 0) {
+        datos.innerHTML = "<p>No se han recibido datos.</p>";
+      } else {
+        params.forEach((valor, clave) => {
+          const p = document.createElement("p");
+          p.textContent = `${clave}: ${valor}`;
+          datos.appendChild(p);
+        });
+      }
+    </script>
+  </body>
+</html>
