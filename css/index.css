@@ -1,21 +1,20 @@
 .main {
   margin: auto;
-  max-width: 50%;
+  max-width: 80%;
   padding: 2rem;
+  min-width: 264px;
 }
 
 .intro-section {
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .main-title {
-  font-size: 2rem;
   margin-bottom: 1rem;
 }
 
 .intro-text {
-  font-size: 1.2rem;
   margin-bottom: 1rem;
 }
 
@@ -36,21 +35,29 @@
 .courses-section,
 .news-section {
   margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-title {
-  font-size: 1.6rem;
   margin-bottom: 1rem;
 }
 
 .course-card,
 .news-card {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
   border: 1px solid #ddd;
   padding: 1rem;
   margin-bottom: 1rem;
   border-radius: 8px;
   background-color: var(--cor-blanco);
   box-shadow: var(--shadow-principal);
+  width: 80%;
 }
 
 .course-link,
@@ -66,4 +73,55 @@
 .all-courses-link:hover,
 .all-news-link:hover {
   text-decoration: underline;
+}
+
+@media screen and (min-width: 900px) {
+  .main {
+    max-width: 90%;
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .main {
+    max-width: 95%;
+    padding: 1.5rem;
+  }
+
+  .courses-section,
+  .news-section {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .course-card,
+  .news-card {
+    align-items: left;
+    justify-content: left;
+    border: 1px solid #07cf00;
+    padding: 1rem;
+    min-width: 300px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  .courses-section,
+  .news-section {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .course-card,
+  .news-card {
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #a02828;
+    padding: 1rem;
+    min-width: 300px;
+  }
 }

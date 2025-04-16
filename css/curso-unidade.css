@@ -1,0 +1,32 @@
+/* Conteúdo principal */
+.curso-unidade-main {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.curso-unidade-main .section-title {
+  /* font-size: 2rem; */
+  margin-bottom: 1.5rem;
+  color: var(--cor-texto);
+  text-align: center;
+}
+
+.curso-unidade-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.curso-unidade-texto {
+  /* font-size: 1rem; */
+  color: var(--cor-texto);
+  text-align: justify;
+}
+
+/* Banner responsivo */
+.curso-unidade-banner img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

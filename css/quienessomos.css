@@ -5,15 +5,12 @@
   padding: 20px;
   background-color: white;
   border-radius: 10px;
-  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
   box-shadow: var(--shadow-principal);
 }
 
 .quienes-title {
   text-align: center;
-  font-size: 2em;
   margin-bottom: 15px;
-  color: var(--cor-texto);
 }
 
 .quienes-description {
@@ -24,12 +21,9 @@
 
 .quienes-subtitle {
   text-align: center;
-  font-size: 1.5em;
   margin-bottom: 20px;
-  color: var(--cor-texto);
 }
 
-/* Tabela do time */
 .equipo-table {
   width: 100%;
   border-collapse: collapse;
@@ -54,7 +48,6 @@
 
 .equipo-img {
   border-radius: 8px;
-  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); */
   box-shadow: var(--shadow-principal);
   transition: transform 0.3s ease;
 }
@@ -65,4 +58,25 @@
 
 .equipo-nombre {
   padding: 10px;
+}
+
+@media screen and (max-width: 580px) {
+  table {
+    border: none;
+  }
+  th {
+    display: none;
+  }
+  td,
+  tbody,
+  tr {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: none;
+  }
+
+  tr {
+    margin-bottom: 1rem; /* Espaço entre "linhas" */
+  }
 }

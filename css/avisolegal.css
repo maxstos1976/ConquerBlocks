@@ -4,18 +4,19 @@
 }
 
 .legal-title {
-  font-size: 2rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .legal-text {
-  font-size: 1.1rem;
   margin-bottom: 1.5rem;
+  line-height: 2em;
 }
 
 .legal-list {
   list-style-type: disc;
   padding-left: 2rem;
+  font-size: large;
 }
 
 .legal-list li {

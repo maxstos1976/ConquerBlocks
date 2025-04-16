@@ -5,41 +5,41 @@
   padding: 2rem;
 }
 
-.blog-title {
+.blog-main .blog-title {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 1rem;
 }
 
-.blog-subtitle {
+.blog-main .blog-subtitle {
   text-align: center;
   margin-bottom: 2rem;
   /* color: var(--cor-texto); */
   font-size: 1.2em;
 }
 
-.blog-posts-section {
+.blog-main .blog-posts-section {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-.blog-post {
+.blog-main .blog-post {
   border-bottom: 1px solid var(--cor-blanco);
   padding: 1rem;
   box-shadow: var(--shadow-principal);
 }
 
-.post-title {
+.blog-main .post-title {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
-.post-link {
+.blog-main .post-link {
   text-decoration: none;
   color: var(--cor-principal);
 }
 
-.post-link:hover {
+.blog-main .post-link:hover {
   text-decoration: underline;
 }

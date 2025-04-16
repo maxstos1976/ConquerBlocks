@@ -2,41 +2,40 @@
 .cursos-main {
   padding: 2rem;
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 /* INTRO SECTION */
-.intro-cursos {
+.cursos-main .intro-cursos {
   margin-bottom: 2rem;
   text-align: center;
 }
 
-.cursos-title {
+.cursos-main .cursos-title {
   font-size: 2.5rem;
   /* color: var(--cor-texto); */
   margin-bottom: 0.5rem;
 }
 
-.cursos-description {
+.cursos-main .cursos-description {
   font-size: 1.2rem;
   /* color: var(--cor-texto); */
 }
 
 /* LISTA DE CURSOS */
-.lista-cursos {
+.cursos-main .lista-cursos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2rem;
 }
 
-.lista-title {
-  font-size: 2rem;
+.cursos-main .lista-title {
   margin-bottom: 1rem;
   grid-column: 1 / -1;
 }
 
 /* CURSO CARD */
-.curso-card {
+.cursos-main .curso-card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -48,7 +47,7 @@
   text-align: center;
 }
 
-.curso-card:hover {
+.cursos-main .curso-card:hover {
   transform: translateY(-5px);
 }
 
@@ -58,7 +57,7 @@
   /* color: var(--cor-texto); */
 }
 
-.curso-link {
+.cursos-main .curso-link {
   display: inline-block;
   background-color: var(--cor-principal);
   color: var(--cor-blanco);
@@ -67,42 +66,36 @@
   transition: background-color 0.3s;
 }
 
-.curso-link:hover {
+.cursos-main .curso-link:hover {
   background-color: var(--cor-principal);
 }
 
-.curso-main {
-  padding: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.section-title {
+.cursos-main .cursos-main .section-title {
   font-size: 2rem;
   margin-bottom: 1.5rem;
   text-align: center;
   /* color: var(--cor-texto); */
 }
 
-.curso-section {
+.cursos-main .curso-section {
   background-color: var(--cor-blanco);
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: var(--shadow-principal);
 }
 
-.curso-texto {
+.cursos-main .curso-texto {
   /* color: var(--cor-texto); */
   font-size: 1.2em;
   margin-bottom: 2rem;
 }
 
-.curso-banner {
+.cursos-main .curso-banner {
   display: block;
   text-align: center;
 }
 
-.curso-banner img {
+.cursos-main .curso-banner img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;

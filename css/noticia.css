@@ -1,28 +1,28 @@
-.news-section {
+.main-content .news-section {
   max-width: 800px;
   margin: 0 auto;
 }
 
-.news-title {
+.main-content .news-title {
   font-size: 1.8em;
   margin-bottom: 20px;
 }
 
-.news-paragraph {
+.main-content .news-paragraph {
   font-size: 1.2em;
   text-align: justify;
 }
 
-.news-picture {
+.main-content .news-picture {
   width: 100%;
   margin-top: 20px;
 }
 
-.news-source {
+.main-content .news-source {
   width: 100%;
 }
 
-.news-img {
+.main-content .news-img {
   margin-top: 20px;
   width: 100%;
   height: auto;

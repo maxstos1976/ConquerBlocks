@@ -3,7 +3,7 @@
 }
 
 .form-section {
-  max-width: 600px;
+  max-width: 720px;
   margin: 0 auto;
 }
 
@@ -14,8 +14,9 @@
 }
 
 .form-legend {
-  font-size: 1.5em;
-  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: var(--cor-texto);
 }
 
 .form-group {

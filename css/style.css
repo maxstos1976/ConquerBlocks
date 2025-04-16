@@ -1,4 +1,5 @@
 @import url("./normalize.css");
+@import url("./avisolegal.css");
 @import url("./header.css");
 @import url("./footer.css");
 @import url("./index.css");
@@ -7,6 +8,7 @@
 @import url("./login.css");
 @import url("./quienessomos.css");
 @import url("./cursos.css");
+@import url("./curso-unidade.css");
 @import url("./registro.css");
 @import url("./noticia.css");
 @import url("./simulacion.css");
